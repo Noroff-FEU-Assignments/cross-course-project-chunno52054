@@ -1,35 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="author" content="Chuka Nnoli" />
+    <meta
+      name="description"
+      content="A web page for an outdoor equipment store called Rainydays"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rainydays</title>
+    <script
+      src="https://kit.fontawesome.com/4cf3f1b7b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;500;700&family=Kanit:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rainydays home page</title>
   </head>
   <body>
     <header>
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="bars-icon"
+        ><i class="fa-sharp fa-solid fa-bars"></i
+      ></label>
+      <a href="index.html"
+        ><img
+          src="images/RainyDays_header_icon_logo .png"
+          alt="Small Rainydays Logo"
+      /></a>
       <nav>
         <ul>
-          <li>Men</li>
-          <li>Women</li>
-          <li>Kids</li>
-          <li><a href="About.html"></a>About Us</li>
-          <li><a href="Contact.html"></a>Contact</li>
+          <li><a href="productlist_men.html">Men</a></li>
+          <li><a href="productlist_women.html">Women</a></li>
+          <li><a href="productlist_kids.html">Kids</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="header_icons_wrapper">
+        <div class="header_icons">
+          <i class="fa-solid fa-magnifying-glass" style="color: #0a3841"></i>
+          <i class="fa-regular fa-user" style="color: #0a3841"></i>
+          <i class="fa-solid fa-basket-shopping" style="color: #0a3841"></i>
+        </div>
+      </div>
     </header>
     <main>
-      <p>
-        We strive to provide top of the line quality products for our all our
-        customers. Our hight tech fabrics, and innovative designs will allow you
-        to have the best outdoor experince and enjoy nature to its fullest. Our
-        range of products include high performing outerwear and gear for hiking,
-        work or for casual everyday fits - we got you covered. As a part of our
-        Rainy days family you are guarenteed sustaineble products that will last
-        you a lifetime, an achivement we are very proud of. Our goal is to bring
-        people to nature, in the most comfortable way
-      </p>
+      <section class="section_1">
+        <h1>END OF SEASON SALE</h1>
+        <h2>Up to 50% on selected items</h2>
+        <button>Go to sale</button>
+      </section>
+      <div class="news-bar"><h3 id="news">News</h3></div>
+      <section>
+        <div class="product-contentbox">
+          <div class="product-card-container">
+            <a href="productpage.html" class="product-card">
+              <div class="product-window">
+                <img
+                  src="images/RainyDays_Jacket1-removebg-preview.png"
+                  alt="1st watch polar ascent shell jacket"
+                />
+              </div>
+              <div class="product-card-name">
+                <h3 class="brand-name">1st Watch</h3>
+                <p class="secondary-name">Polar Ascent Shell Jacket</p>
+                <p class="price">350 &#36;</p>
+              </div>
+            </a>
+          </div>
+          <div class="product-card-container">
+            <a href="productpage.html" class="product-card">
+              <div class="product-window">
+                <img
+                  src="images/RainyDays_Jacket2-removebg-preview.png"
+                  alt=""
+                />
+              </div>
+              <div class="product-card-name">
+                <h3 class="brand-name">Scott</h3>
+                <p class="secondary-name">Performance Durashell Jacket</p>
+                <p class="price">250 &#36;</p>
+              </div>
+            </a>
+          </div>
+          <div class="product-card-container">
+            <a href="productpage.html" class="product-card">
+              <div class="product-window">
+                <img
+                  src="images/RainyDays_Jacket3-removebg-preview.png"
+                  alt=""
+                />
+              </div>
+              <div class="product-card-name">
+                <h3 class="brand-name">Xm Extreme</h3>
+                <p class="secondary-name">Technical Barrier Jacket</p>
+                <p class="price">279 &#36;</p>
+              </div>
+            </a>
+          </div>
+          <div class="product-card-container">
+            <a href="productpage.html" class="product-card">
+              <div class="product-window">
+                <img
+                  src="images/RainyDays_Jacket4-removebg-preview.png"
+                  alt=""
+                />
+              </div>
+              <div class="product-card-name">
+                <h3 class="brand-name">1st Watch</h3>
+                <p class="secondary-name">Vertic 3L Jacket</p>
+                <p class="price">279 &#36;</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--For the main body elements -->
     </main>
-    <footer></footer>
+    <footer>
+      <div class="contentbox">
+        <div class="footer-faq">
+          <div class="footer-content-faq">
+            <i
+              class="fa-sharp fa-regular fa-circle-question"
+              style="color: #ffffff"
+            ></i>
+            <p>Faq's</p>
+          </div>
+          <ul>
+            <li>Order</li>
+            <li>Shipping &amp; returns</li>
+            <li>Payment &amp; security</li>
+            <li>Invoice</li>
+            <li>Discount</li>
+          </ul>
+        </div>
+        <div class="footer-payment">
+          <div class="footer-content-payment">
+            <i class="fa-regular fa-credit-card" style="color: #ffffff"></i>
+            <p>Payment options</p>
+          </div>
+          <div class="footer-content-payment_icons">
+            <img src="images/Visa.svg" alt="visa payment option" />
+            <img src="images/Paypal.svg" alt="paypal payment option" />
+            <img src="images/Mastercard.svg" alt="mastercard payment option" />
+            <img src="images/Amex.svg" alt="amex payment option" />
+          </div>
+        </div>
+        <div class="footer-socials">
+          <img src="images/Instagram_logo.svg" alt="Link to instagram page" />
+          <img src="images/facebook_logo.svg" alt="Link to facebook page" />
+          <img src="images/pinterest_logo.svg" alt="Link to pinterest page" />
+          <img src="images/youtube_logo.svg" alt="Link to youtube channel" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
