@@ -21,6 +21,7 @@ header {
 .header_icons {
     display: flex;
     gap: 25px;
+    color:#0A3841;
 }
 
 nav {
@@ -205,7 +206,7 @@ footer li {
     color: #ffffff;
 }
 
-@media (min-width: 600px){
+@media (min-width: 780px){
     nav {
         display: inline-block;
         position: static;
@@ -218,21 +219,23 @@ footer li {
     nav li {
         display: inline-block;
     }
-}
 
-
-@media (min-width: 600px){
     .contentbox {
         flex-direction: row;
     }
-}
 
-@media (min-width: 600px){
     .product-contentbox {
         flex-direction: row;
         justify-content: space-around;
     }
+
 }
+
+
+
+
+
+
 
 
     
