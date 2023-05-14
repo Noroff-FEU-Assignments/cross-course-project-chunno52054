@@ -179,7 +179,7 @@ footer li {
 .product-preview img {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 31%;
 }
 .product-card-container {
     max-width: 295px;
@@ -199,11 +199,14 @@ footer li {
 }
 
 .cta-addtocart {
+    display: flex;
     background-color: #0A3841;
     color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-addtocart a {
@@ -217,8 +220,19 @@ footer li {
     background-color: #0A3841;
     font-family: barlow;
     color: #ffffff;
-    padding: 30px;
-    margin-bottom: 100px;
+    padding: 40px;
+    
+}
+
+#about-img-container {
+    background-color: #e1e0df;
+    display: flex;
+    justify-content: center;
+}
+
+#about-img {
+    width: 50%;
+    
 }
 
 .container {
