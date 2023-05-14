@@ -4,6 +4,10 @@
     list-style: none;   
     text-decoration: none;
 }
+img, svg {
+    max-width: 100%;
+    display: block;
+}
 
 header {
     display: flex;
@@ -58,13 +62,16 @@ nav a {
 }
 
 
-h1, h2, h3 {
+h1, h2 {
     font-family: kanit;
     color: #000000;
+    text-align: center;
 }
 
 h3 {
     font-size: 1rem;
+    color: #000000;
+    font-family: kanit;
 }
 
 .brand-name {
@@ -142,7 +149,7 @@ footer {
     margin-bottom: 15px;
 }
 
-.footer-content-payment_icons {
+.footer-content-payment_icons, .footer-socials {
     display: flex;
     gap: 15px;
 }
@@ -205,6 +212,50 @@ footer li {
     font-size: 1.25rem;
     color: #ffffff;
 }
+
+#about-text {
+    background-color: #0A3841;
+    font-family: barlow;
+    color: #ffffff;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: barlow;
+    margin-top: 30px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-group textarea {
+    height: 120px;
+  }
+  .form-group .btn {
+    background-color: #0A3841;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-group .btn:hover {
+    background-color:#0A3841;
+  }
 
 @media (min-width: 780px){
     nav {
